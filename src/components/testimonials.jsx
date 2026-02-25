@@ -111,7 +111,7 @@ const Testimonials = () => {
         }
       `}</style>
 
-      <div className='container'>
+      <div className='container-fluid'>
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '40px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: 600, color: '#1a1a2e', margin: 0, maxWidth: '600px', lineHeight: 1.3 }}>
             What people are saying about LeadCRM

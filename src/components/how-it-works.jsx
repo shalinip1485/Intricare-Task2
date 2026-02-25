@@ -4,10 +4,10 @@ import { FaArrowRight } from 'react-icons/fa'
 const HowItWorks = () => {
     return (
         <div className='howItWorksSection py-5'>
-            <div className="container">
+            <div className="container-fluid px-2">
                 <h2 className='howItWorksTitlte'>How It Works</h2>
                 <p>From setup to success in <span className='fw-medium'>4 simple steps</span></p>
-                <div className="row mt-5" style={{ position: 'relative', zIndex: 0 }}>
+                <div className="row mt-5 px-lg-4 px-md-2" style={{ position: 'relative', zIndex: 0 }}>
                     <img
                         src="/howitworksarrow-1.svg"
                         alt=""
@@ -27,7 +27,7 @@ const HowItWorks = () => {
                         style={{ position: 'absolute', top: '35%', left: '66%', width: '18%', zIndex: -1 }}
                     />
 
-                    <div className="col-md-3">
+                    <div className="col-md-5 col-lg-3">
                         <div className="card py-3 border-0 rounded-4 p-3 h-100" style={{ position: 'relative', zIndex: 1 }}>
                             <h1 className='tertiary-font tertiary-font-heading text-center'>1</h1>
                             <h3 className='howItWorksTitlte-cardtitle text-center'>Install the Extension</h3>
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                             <img src="/howitworks1.png" className="mt-auto" alt="" />
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-5 col-lg-3">
                         <div className="card py-3 border-0 rounded-4 p-3 h-100" style={{ position: 'relative', zIndex: 1 }}>
                             <h1 className='tertiary-font tertiary-font-heading text-center'>2</h1>
                             <h3 className='howItWorksTitlte-cardtitle text-center'>Browse LinkedIn</h3>
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                     </div>
 
 
-                    <div className="col-md-3">
+                    <div className="col-md-5 col-lg-3">
                         <div className="card py-3 border-0 rounded-4 p-3 h-100" style={{ position: 'relative', zIndex: 1 }}>
                             <h1 className='tertiary-font tertiary-font-heading text-center'>3</h1>
                             <h3 className='howItWorksTitlte-cardtitle text-center'>Get Enriched Data</h3>
@@ -53,7 +53,7 @@ const HowItWorks = () => {
                             <img src="/HowItWorks3.png" className="mt-auto" alt="" />
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-5 col-lg-3">
                         <div className="card py-3 border-0 rounded-4 p-3 h-100" style={{ position: 'relative', zIndex: 1 }}>
                             <h1 className='tertiary-font tertiary-font-heading text-center'>4</h1>
                             <h3 className='howItWorksTitlte-cardtitle text-center'>Sync to CRM Instantly</h3>

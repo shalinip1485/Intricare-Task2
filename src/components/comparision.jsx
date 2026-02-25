@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comparision = () => {
   return (
-    <div className='container mt-5 pb-5'>
+    <div className='container-fluid mt-5 pb-5'>
       <h1 className='fs-2 font-bold text-center my-8'>Every LinkedIn Prospector faces these daily challenges</h1>
       <div className="row mt-5 position-relative">
         <div className="col-lg-6 col-md-12 px-4">
@@ -55,7 +55,7 @@ const Comparision = () => {
           </div>
         </div>
 
-        <div className="d-none d-md-flex separator-container">
+        <div className="d-none d-lg-flex separator-container">
           <div className="separator-line"></div>
           <span className="vs-text">vs</span>
         </div>
